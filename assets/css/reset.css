@@ -1,0 +1,36 @@
+.header {
+    background-color: rgb(60, 0, 170);
+    padding: 2%;
+    text-align: center;
+    color: rgb(182, 0, 182);
+}
+
+.container {
+    width: 50%;
+    background-color: grey;
+    border: 20px, black;
+    margin-top: 10%;
+    padding: 20px;
+    text-align: center;
+}
+
+.populate {
+    background-color: #20179b;
+    color: white;
+    width: 50%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 75px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.info {
+    font-size: 20px;
+}
