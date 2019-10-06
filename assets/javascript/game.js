@@ -1,5 +1,5 @@
 var winCount = 1;
-var lossCount = 0;
+var lossCount = 1;
 var guessesRemaining = 10;
 var guessedLetters = [];
 
@@ -24,7 +24,7 @@ document.onkeyup = function(event) {
     }
 
     if (guessesRemaining <= 0) {
-        lossCount++;
+
         document.getElementById("lossCount").innerHTML = lossCount++;
         console.log("Try again!");
         alert("Try again!");
